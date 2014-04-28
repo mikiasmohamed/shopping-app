@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Shopping List</title>
+
+ <link type="text/css" rel="stylesheet" href="reset.css">
+  <link type="text/css" rel="stylesheet" href="main.css">
+  
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="app.js"></script>
+
+</head>
+
+<body>
+	
+	<div id="header">The Shopping List</div>
+	<div id="main">
+
+<label for="item">Shopping Items</label>
+<input id="item">
+<label for="quantity">Quantity</label>
+<input id="quantity" type="text">
+<label for="price">Price</label>
+<input id="price" type="text">
+
+<button id="add">Add</button>
+<button id="remove">Remove</button>
+
+<h1>Check/Uncheck</h1>
+<h1>Items</h1>
+<h1>Quantity</h1>
+<h1>Price: $</h1>
+<h1>Total: $</h1>
+
+<div id="wrapper_list">
+	
+	
+	<div class="col">
+	<ul class="list" id="checkbox_grid">
+	</ul>
+
+	</div>
+
+	
+	<div class="column">
+	
+	<ul class="list" id="item_grid">
+    </ul>
+    </div>
+
+	
+    <div class="column">
+	
+	<ul  class="list" id="quantity_grid">
+	</ul>
+	</div>
+	
+	<div class="column">
+    
+	<ul class="list" id="price_grid">
+	</ul>
+	</div>
+	
+	
+	<div class="column">
+	
+	<ul class="list" id="total_grid">
+		
+	</ul>
+	
+	
+	</div>
+	
+	</div>
+
+<div id="sum_div">
+	
+<label for="sum_total">Sum Total: $</label>
+<input type="text" value="" id="sum_total">
+<button id="calculate">Calculate</button>
+
+</div>
+
+
+</body>
+</html>
