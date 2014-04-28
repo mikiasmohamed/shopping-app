@@ -1,0 +1,165 @@
+
+
+body
+{
+background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+}
+
+#header {
+	
+position:relative;
+height:10%;
+color:white;
+font-family: "Century Gothic";
+background: black;
+font-style: italic;
+font-size:5em;
+text-align:center;
+
+}
+
+#main{
+
+
+position:relative;
+margin: 0 auto;
+width:960px;
+height:10%;
+text-align:center;
+padding-top: 2%;
+background:black;
+font-family: "Century Gothic";
+font-size: 0.9em;
+
+margin-top:20px;
+
+}
+
+h1
+{
+	position: relative;
+	margin-top:15px;
+	margin-left:15px;
+    margin-right:15px;
+	display: inline-block;
+}
+#add
+
+{
+
+	background: #31748f;
+	color: white;
+	width:99px;
+	height:25px;
+	font-family: "Century Gothic";
+	font-weight: bold;
+	
+}
+
+#remove
+
+{
+ 
+	background: #31748f;
+	color:white;
+	width:99px;
+	height: 25px;
+	font-family: "Century Gothic";
+	font-weight:bold;
+	
+}
+
+
+.col 
+{
+
+display: inline-block;
+margin-right:100px;
+margin-left:100px;
+
+
+}
+
+#checkbox_grid.li{
+
+	display: block;
+	float: none;
+}
+
+#main h1{
+
+color:white;
+font-style: italic;
+font-family: "Century Gothic";
+font-size: 1.2em;
+font-weight: bold;
+
+
+}
+
+
+.column {
+
+position: relative;
+
+clear:both;
+display: inline-block;
+margin-left:20px;
+margin-right:60px;
+
+
+}
+
+
+
+.list 
+{
+	position: relative;
+	list-style:none;
+	//background:#355664;
+	// width:50px;
+	color:white;
+
+}
+#sum_div
+{
+	position: relative;
+	margin-top:15px;
+	background:#31748f;
+	width:40%;
+	height:15%;
+	color:white;
+	float:right;
+	font-style: italic;
+	color:white;
+	padding-top: 0;
+	padding-bottom: 0;
+	
+	
+}
+#calculate
+
+{
+
+    background:#6D9B21;
+	color:white;
+	width:99px;
+	height: 25px;
+	font-family: "Century Gothic";
+	font-weight:bold;
+
+}
+#sum_total
+{
+	position: relative;
+	padding:auto 0;
+	
+}
+
